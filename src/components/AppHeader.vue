@@ -362,7 +362,6 @@ nav {
 
 .btn-group .dropdown-item.active {
   color: #f14e3b;
-  right: 10px;
   background-color: black;
 }
 
@@ -417,7 +416,6 @@ nav {
   text-transform: uppercase;
   color: white;
   transition: color 0.3s ease;
-  right: 10px;
   transform: none;
   position: relative;
   width: 100%;

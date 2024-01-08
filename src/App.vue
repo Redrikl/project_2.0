@@ -3,6 +3,7 @@
     <AppHeader />
     <InformApp />
     <BehindeTariff />
+    <TeamApp />
     <Slider />
     <CaseApp />
     <AppReview/>
@@ -20,18 +21,19 @@ import CaseApp from "@/components/CaseApp.vue";
 import FooterApp from "@/components/FooterApp.vue";
 import FAq from "@/components/FAq.vue";
 import AppReview from "@/components/AppReview.vue";
-import Team from "@/components/Team.vue";
+import TeamApp from './components/TeamApp.vue';
 
 export default {
   components: {
     FAq,
+    TeamApp,
     BehindeTariff,
     Slider,
     AppHeader,
     InformApp,
     CaseApp,
     AppReview,
-    FooterApp
+    FooterApp,
   },
 };
 </script>

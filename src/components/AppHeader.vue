@@ -265,8 +265,8 @@ a {
 
 /* Header */
 header {
-  width: 96%;
-  background: black;
+  width: 100%;
+  background: #424242;
   position: fixed;
   bottom: -3px;
 

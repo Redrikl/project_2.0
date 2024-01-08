@@ -2,30 +2,31 @@
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 import Partner from "@/components/Partner.vue";
-import pic1 from "../assets/img/rings/1.jpg";
-import pic2 from "../assets/img/rings/2.jpg";
-import pic3 from "../assets/img/rings/3.jpeg";
-import pic4 from "../assets/img/rings/4.jpg";
-import pic5 from "../assets/img/rings/5.png";
-import pic6 from "../assets/img/rings/6.png";
-import pic7 from "../assets/img/rings/7.png"
-import pic8 from "../assets/img/rings/8.jpg"
-import pic9 from "../assets/img/rings/9.jpg"
-import pic10 from "../assets/img/rings/10.png"
-import pic11 from "../assets/img/rings/11.png"
-import pic12 from "../assets/img/rings/youtube.svg"
-import pic13 from "../assets/foto_for_slider/kitekat.jpg"
-import pic14 from "../assets/foto_for_slider/Whiskas.png"
-import pic15 from "../assets/foto_for_slider/Friskies.svg.png"
-import pic16 from "../assets/foto_for_slider/whiskas.jpg"
-import pic17 from "../assets/img/rings/5.png"
-import pic18 from "../assets/img/rings/6.png"
-import pic19 from "../assets/img/rings/7.png"
-import pic20 from "../assets/img/rings/8.jpg"
-import pic21 from "../assets/img/rings/1.jpg";
-import pic22 from "../assets/img/rings/2.jpg";
-import pic23 from "../assets/img/rings/3.jpg";
-import pic24 from "../assets/img/rings/4.jpg";
+import pic1 from "../assets/img/1.jpg";
+import pic2 from "../assets/img/2.jpg";
+import pic3 from "../assets/img/3.jpeg";
+import pic4 from "../assets/img/4.jpg";
+import pic5 from "../assets/img/5.png";
+import pic6 from "../assets/img/6.png";
+import pic7 from "../assets/img/7.png"
+import pic8 from "../assets/img/8.jpg"
+import pic9 from "../assets/img/9.jpg"
+import pic10 from "../assets/img/10.png"
+import pic11 from "../assets/img/11.png"
+import pic12 from "../assets/img/youtube.svg"
+import pic13 from "../assets/img/kitekat.jpg"
+import pic14 from "../assets/img/Whiskas.png"
+import pic15 from "../assets/img/Friskies.svg.png"
+import pic16 from "../assets/img/whiskas.jpg"
+import pic17 from "../assets/img/5.png"
+import pic18 from "../assets/img/6.png"
+import pic19 from "../assets/img/7.png"
+import pic20 from "../assets/img/8.jpg"
+import pic21 from "../assets/img/1.jpg";
+import pic22 from "../assets/img/2.jpg";
+import pic23 from "../assets/img/3.jpg";
+import pic24 from "../assets/img/4.jpg";
+
 
 export default {
   name: "WorkWithUs",

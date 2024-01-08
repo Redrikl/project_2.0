@@ -2,14 +2,14 @@
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
 import Partner from "@/components/Partner.vue";
-import pic1 from "../assets/img/logo.jpg";
-import pic2 from "../assets/img/logo_0.jpg";
-import pic3 from "../assets/img/logo_2.jpeg";
-import pic4 from "../assets/img/logo_estee.jpg";
+import pic1 from "../assets/img/logo.png";
+import pic2 from "../assets/img/logo_0.png";
+import pic3 from "../assets/img/logo_2.png";
+import pic4 from "../assets/img/11.jpg";
 import pic5 from "../assets/img/nashagazeta_ch.png";
 import pic6 from "../assets/img/1.jpg";
 import pic7 from "../assets/img/2.jpg"
-import pic8 from "../assets/img/3.jpg"
+import pic8 from "../assets/img/3.webp"
 import pic9 from "../assets/img/4.png"
 import pic10 from "../assets/img/10.png"
 import pic11 from "../assets/img/11.jpg"
@@ -22,10 +22,10 @@ import pic17 from "../assets/img/5.jpg"
 import pic18 from "../assets/img/6.jpg"
 import pic19 from "../assets/img/7.jpg"
 import pic20 from "../assets/img/8.png"
-import pic1 from "../assets/img/logo.jpg";
-import pic2 from "../assets/img/logo_0.jpg";
-import pic3 from "../assets/img/logo_2.jpeg";
-import pic4 from "../assets/img/logo_estee.jpg";
+import pic21 from "../assets/img/logo.png";
+import pic22 from "../assets/img/logo_0.png";
+import pic23 from "../assets/img/logo_2.png";
+import pic24 from "../assets/img/12.jpg";
 
 
 export default {

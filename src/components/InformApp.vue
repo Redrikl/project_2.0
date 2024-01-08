@@ -1,5 +1,5 @@
 <template>
-  <div class = "inform-region container-fluid">
+  <div class = "inform-region container-fluid" id="Inform">
     <div class = "competencies">
       <div class = "container">
         <div class = "row">
@@ -137,22 +137,12 @@
   </div>
 </template>
 
-
-
-
-
 <script>
 export default
 {
   name: 'InformApp'
 }
-
 </script>
-
-
-
-
-
 
 <style scoped>
 @media (max-width: 1300px)

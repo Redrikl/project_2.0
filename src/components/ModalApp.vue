@@ -24,3 +24,18 @@ export default {
   },
 };
 </script>
+
+<style>
+.modal__content {
+  padding: 40px;
+  background: #040613 !important;
+}
+.modal__width {
+  width: 700px !important;
+}
+@media (max-width: 440px) {
+  .modal__width {
+    width: 375px !important;
+  }
+}
+</style>

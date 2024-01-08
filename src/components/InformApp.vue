@@ -144,7 +144,7 @@
 <script>
 export default
 {
-  name: 'Inform'
+  name: 'InformApp'
 }
 
 </script>

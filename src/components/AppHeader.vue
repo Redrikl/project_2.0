@@ -160,7 +160,7 @@
   <div class="main-info">
     <div class="main-info-video">
       <video autoplay="autoplay" muted preload="auto" loop playsinline>
-        <source src="../assets/video/header_video.mp4" type="video/mp4"/>
+        <source src="../assets/img/video.mp4" type="video/mp4"/>
       </video>
     </div>
     <div class="container d-flex justify-content-between">

@@ -1,26 +1,26 @@
 <template>
   <div id="app">
     <AppHeader />
-    <Inform />
-    <Behinde />
-    <Review/>
+    <InformApp />
+    <BehindeTariff />
+    <AppReview/>
     <FAq/>
   </div>
 </template>
 
 <script>
-import Header from './components/AppHeader.vue';//
-import Inform from './components/Inform.vue';//
-import Behinde from './components/Behinde.vue';//
+import AppHeader from './components/AppHeader.vue';//
+import InformApp from './components/InformApp.vue';//
+import BehindeTariff from './components/BehindeTariff.vue';//
 import FAq from "@/components/FAq.vue";//
-import Review from "@/components/Review.vue";//
+import AppReview from "@/components/AppReview.vue";//
 export default {
   components: {
     FAq,
-    Behinde,
+    BehindeTariff,
     AppHeader,
-    Inform,
-    Review,
+    InformApp,
+    AppReview,
   },
 };
 </script>

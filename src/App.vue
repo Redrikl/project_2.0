@@ -20,6 +20,7 @@ import CaseApp from "@/components/CaseApp.vue";
 import FooterApp from "@/components/FooterApp.vue";
 import FAq from "@/components/FAq.vue";
 import AppReview from "@/components/AppReview.vue";
+import Team from "@/components/Team.vue";
 
 export default {
   components: {

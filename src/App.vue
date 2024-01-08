@@ -2,6 +2,7 @@
   <div id="app">
     <AppHeader />
     <InformApp />
+    <SupportApp />
     <BehindeTariff />
     <TeamApp />
     <Slider />
@@ -22,6 +23,7 @@ import FooterApp from "@/components/FooterApp.vue";
 import FAq from "@/components/FAq.vue";
 import AppReview from "@/components/AppReview.vue";
 import TeamApp from './components/TeamApp.vue';
+import SupportApp from './components/SupportApp.vue';
 
 export default {
   components: {
@@ -34,6 +36,7 @@ export default {
     CaseApp,
     AppReview,
     FooterApp,
+    SupportApp,
   },
 };
 </script>

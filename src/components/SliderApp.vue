@@ -43,7 +43,7 @@ export default {
         centerPadding: '60px',
         lazyLoad: 'ondemand',
         autoplaySpeed: 2000,
-        vertical: false // Добавленная опция для горизонтальной прокрутки
+        vertical: false
       });
       $('#slick-slider2').slick({
         infinite: true,
@@ -57,7 +57,7 @@ export default {
         centerPadding: '60px',
         lazyLoad: 'ondemand',
         autoplaySpeed: 2000,
-        vertical: false // Добавленная опция для горизонтальной прокрутки
+        vertical: false
       });
     });
   }

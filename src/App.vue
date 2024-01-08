@@ -4,6 +4,7 @@
     <InformApp />
     <SupportApp />
     <TarifApp />
+    <ModalApp/>
     <BehindeTariff />
     <TeamApp />
     <Slider />
@@ -26,6 +27,7 @@ import AppReview from "@/components/AppReview.vue";
 import TeamApp from './components/TeamApp.vue';
 import SupportApp from './components/SupportApp.vue';
 import TarifApp from "./components/TarifApp.vue";
+import ModalApp from "@/components/ModalApp.vue";
 
 export default {
   components: {
@@ -40,6 +42,7 @@ export default {
     FooterApp,
     SupportApp,
     TarifApp,
+    ModalApp,
   },
 };
 </script>

@@ -39,9 +39,10 @@
           </a>
         </div>
         <div class="col-12 mt-3">
-          <button :disabled="isLoading" class="btn btn-footer" type="submit" @click="openForm" id="Button">
-            <span v-if="isLoading" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-            <span v-else>Свяжитесь с нами!</span>
+          <button :disabled="isLoading" class="btn footer" type="submit" @click="openForm" id="Button">
+          <span v-if="isLoading" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          <span v-else>Свяжитесь с нами!</span>
+          <span v-if="isLoading">Loading...</span>
           </button>
         </div>
       </div>
@@ -51,11 +52,13 @@
     <div v-if="isFormSubmitted" class="col-12 mt-3 text-success">
       Форма успешно отправлена!
     </div>
-    <div v-else-if="errorMessage" class="error-message">{{ errorMessage }}</div>
+  </transition>
+  <transition name="fade" @before-enter="beforeEnter" @enter="enter" @leave="leave">
+    <div v-if="errorMessage" class="error">{{ errorMessage }}</div>
   </transition>
 </template>
 
-<script>
+<script >
 import axios from 'axios';
 
 export default {
@@ -67,30 +70,30 @@ export default {
       errorMessage: '',
     };
   },
+  saveFormDataToLocalStorage(formData) {
+    localStorage.setItem('formData', JSON.stringify(formData));
+  },
+
+  loadFormDataFromLocalStorage() {
+    const savedFormData = localStorage.getItem('formData');
+    if (savedFormData) {
+      return JSON.parse(savedFormData);
+    }
+    return null;
+  },
   methods: {
-    saveFormDataToLocalStorage(formData) {
-      localStorage.setItem('formData', JSON.stringify(formData));
-    },
-
-    loadFormDataFromLocalStorage() {
-      const savedFormData = localStorage.getItem('formData');
-      if (savedFormData) {
-        return JSON.parse(savedFormData);
-      }
-      return null;
-    },
-
     async submitForm() {
       try {
         this.isLoading = true;
 
         const formData = new FormData(document.getElementById('Form'));
-        await axios.post('https://formcarry.com/s/hf6UnkWxsF', formData);
+        await axios.post('https://formcarry.com/s/b6wYF2ZycZN', formData);
 
         this.isFormSubmitted = true;
         this.isLoading = false;
 
         localStorage.removeItem('formData');
+
       } catch (error) {
         console.error('Ошибка:', error);
         this.isLoading = false;
@@ -101,7 +104,6 @@ export default {
         this.saveFormDataToLocalStorage(Object.fromEntries(formData));
       }
     },
-
     beforeEnter(el) {
       el.style.opacity = 0;
     },
@@ -124,10 +126,10 @@ export default {
     },
     leave(el, done) {
       let opacity = 1;
-      const duration = 500;
+      const duration = 500; // Длительность анимации в миллисекундах
 
       function animate() {
-        opacity -= 1 / (duration / 16);
+        opacity -= 1 / (duration / 16); //  Прозрачность
         el.style.opacity = opacity;
 
         if (opacity > 0) {
@@ -139,19 +141,20 @@ export default {
       animate();
     },
   },
+
 };
 </script>
 
 <style scoped>
-.error-message {
+.error {
   color: red;
   margin-top: 10px;
 }
-.btn-footer{
+.footer{
   background: #f14d34;
   color: #fff;
 }
-.btn-footer:hover{
+.footer:hover{
   background: #d13018;
 }
 </style>

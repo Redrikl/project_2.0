@@ -3,6 +3,7 @@
     <AppHeader />
     <InformApp />
     <BehindeTariff />
+    <CaseApp />
     <AppReview/>
     <FAq/>
   </div>
@@ -14,11 +15,13 @@ import InformApp from './components/InformApp.vue';//
 import BehindeTariff from './components/BehindeTariff.vue';//
 import FAq from "@/components/FAq.vue";//
 import AppReview from "@/components/AppReview.vue";//
+import CaseApp from "@/components/CaseApp.vue";
 export default {
   components: {
     FAq,
     BehindeTariff,
     AppHeader,
+    CaseApp,
     InformApp,
     AppReview,
   },

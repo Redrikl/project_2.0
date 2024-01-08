@@ -129,7 +129,7 @@ export default {
       const duration = 500; // Длительность анимации в миллисекундах
 
       function animate() {
-        opacity -= 1 / (duration / 16); // Изменение прозрачности
+        opacity -= 1 / (duration / 16); //  Прозрачность
         el.style.opacity = opacity;
 
         if (opacity > 0) {

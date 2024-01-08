@@ -3,6 +3,7 @@
     <AppHeader />
     <InformApp />
     <BehindeTariff />
+    <Slider />
     <CaseApp />
     <AppReview/>
     <FAq/>
@@ -14,6 +15,7 @@
 import AppHeader from './components/AppHeader.vue';
 import InformApp from './components/InformApp.vue';
 import BehindeTariff from './components/BehindeTariff.vue';
+import Slider from './components/Slider.vue';
 import CaseApp from "@/components/CaseApp.vue";
 import FooterApp from "@/components/FooterApp.vue";
 import FAq from "@/components/FAq.vue";
@@ -23,6 +25,7 @@ export default {
   components: {
     FAq,
     BehindeTariff,
+    Slider,
     AppHeader,
     InformApp,
     CaseApp,

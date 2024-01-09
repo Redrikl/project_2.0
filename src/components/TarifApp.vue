@@ -113,18 +113,18 @@
                 </div>
             </div>
         </div>
-
     </section>
 </template>
 
 
 <script>
+
 export default {
-  methods: {
-    changeURL() {
-      this.$router.push({name:'modal'});
-    }
-  }
+    methods: {
+        changeURL() {
+            this.$router.push({name:'modal'});
+        },
+    },
 };
 </script>
 

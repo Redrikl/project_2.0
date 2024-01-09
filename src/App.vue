@@ -4,12 +4,12 @@
     <InformApp />
     <SupportApp />
     <TarifApp />
-    <ModalApp/>
+    <ModalApp />
     <BehindeTariff />
     <TeamApp />
-    <Slider />
     <CaseApp />
     <AppReview/>
+    <Slider />
     <FAq/>
     <FooterApp />
   </div>
@@ -44,6 +44,7 @@ export default {
     TarifApp,
     ModalApp,
   },
+
 };
 </script>
 

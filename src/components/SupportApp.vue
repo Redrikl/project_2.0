@@ -2,7 +2,7 @@
     <section id="block-podderzhkasaytovpodderzhkaotdrupalcoder"
         class="block block-block-content block-block-content486391f8-682f-4af0-bfc8-30feb6ebc401 clearfix">
 
-        <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item">
+        <div class="field">
             <div class="advantages with-expertise">
                 <div class="container">
                     <div class="row">
@@ -158,7 +158,7 @@
             <div class="expertise">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-xs-12 col-md-offset-6 m-auto">
+                        <div class="col-md-6 col-xs-12 offset-md-6">
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="block-title">Экспертиза в Drupal,<br> опыт 17 лет!</h2>

@@ -6,7 +6,7 @@
   <section>
 <div class="competencies without-padding-bottom" >
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class = "col-md-10 time">
         <h1 class = "competency-title">Наши профессиональные разработчики выполняют быстро любые задачи</h1>
       </div>
